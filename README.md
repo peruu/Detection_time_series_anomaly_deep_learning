@@ -38,6 +38,7 @@ Dado que se desea detectar trayectos de vehículos anómalos este se puede ver c
 
 Las series de tiempo se definen como un conjunto de observaciones tomadas en un periodo de tiempo particular ordenadas y que toman valores en diferentes momentos del tiempo, los modelos de serie de tiempo tienen un enfoque netamente predictivo. Se tiene los registros de los vehículos ordenadamente, cada registro es una observación en un tiempo $t$, entonces una serie de tiempo es una secuencia de observaciones como:
 
+![](ejemplos/time.PNG)
 ![](ejemplos\time.PNG)
 
 Donde ![](ejemplos\obs.PNG)es una observación multidimensional ![](ejemplos\R_d.PNG)
