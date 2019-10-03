@@ -39,9 +39,9 @@ Dado que se desea detectar trayectos de vehículos anómalos este se puede ver c
 Las series de tiempo se definen como un conjunto de observaciones tomadas en un periodo de tiempo particular ordenadas y que toman valores en diferentes momentos del tiempo, los modelos de serie de tiempo tienen un enfoque netamente predictivo. Se tiene los registros de los vehículos ordenadamente, cada registro es una observación en un tiempo $t$, entonces una serie de tiempo es una secuencia de observaciones como:
 
 ![](ejemplos/time.PNG)
-![](ejemplos\time.PNG)
+![](ejemplos/time.PNG)
 
-Donde ![](ejemplos\obs.PNG)es una observación multidimensional ![](ejemplos\R_d.PNG)
+Donde ![](ejemplos\obs.PNG)es una observación multidimensional ![](ejemplos/R_d.PNG)
 
 Un serie de tiempo es anómala donde al menos una observación es anómala.
 
@@ -62,23 +62,23 @@ La tabla esta compuesta por 7 variables (fecha,latitud,longitud,altitud,cog,velo
  <h3 id="ejemplo_1">Series de tiempo anómalos(Ejemplo 1)</h3>
 En este ejemplo las lecturas del dispositivo GPS son errores por ello se rompe la discontinuidad de la serie de tiempo, las lecturas de latitud y longitud son lecturas erróneas.
 
-![](ejemplos\mapa_2.PNG)
+![](ejemplos/mapa_2.PNG)
 
 Se observa que en la fila 32 y fila 33 en la columna latitud y longitud, se rompe la discontinuidad de las observaciones y por ello que las lecturas del GPS se disparan el mapa, observe las columna latitud y longitud de la fila 32 y 33 hay un cambio brusco, de igual forma pasa con la fila 37 y 39.
 
-![](ejemplos\tabla_3.PNG)
+![](ejemplos/tabla_3.PNG)
 
-![](ejemplos\tabla_4.PNG)
+![](ejemplos/tabla_4.PNG)
 
 
 
 <h3 id="ejemplo_2">Series de tiempo anómalos(Ejemplo 2)</h3>
 Se ilustra la serie de tiempo la cual esta compuesta por 40 observaciones , los puntos rojos son observaciones anómalas, claramente no se ve una anomalía a simple vista pero si se observa sus valores se encuentran anómalias.
 
-![](ejemplos\mapa_1.PNG)
+![](ejemplos/mapa_1.PNG)
 
 Se muestra un trayecto de 40 observaciones si observamos la fila 4 y fila 5 en la columna velocidad, se ve un cambio brucos de velocidad de 136km a 0 km, coincidentemente el porcentaje de error de reconstrucción es el mas alto, de igual forma pasa con la fila 2 y fila 3 donde se ve un cambio brusco de velocidad de 24km a 112km.
 
-![](ejemplos\tabla_1.PNG)
+![](ejemplos/tabla_1.PNG)
 
-![](ejemplos\tabla_2.PNG)
+![](ejemplos/tabla_2.PNG)
